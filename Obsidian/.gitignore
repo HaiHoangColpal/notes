@@ -1,0 +1,14 @@
+# --- File hệ thống Obsidian thường thay đổi (gây rác commit) ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# --- QUAN TRỌNG: Chặn file chứa Token/Secret ---
+# Chặn cụ thể file data.json của plugin githobs (nơi chứa lỗi cũ)
+Obsidian/Learning/.obsidian/plugins/githobs/data.json
+
+# Hoặc nếu bạn muốn chặn data.json của TẤT CẢ các plugin (an toàn hơn)
+.obsidian/plugins/*/data.json
+
+# --- Các file hệ thống khác (nếu có) ---
+.DS_Store
+Thumbs.db
